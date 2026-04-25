@@ -1,0 +1,94 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --purple: #6B21E8;
+  --purple-mid: #8B5CF6;
+  --blue: #3B82F6;
+  --pink: #EC4899;
+  --text-dark: #1a1a2e;
+  --text-mid: #4a4a6a;
+  --text-light: #6b7280;
+  --bg: #f8f8fc;
+  --white: #ffffff;
+  --border: #e5e7eb;
+  --card-bg: #ffffff;
+  --nav-bg: rgba(255,255,255,0.85);
+  --tag-bg: #eef2ff;
+  --tag-text: #4338ca;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 48px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08), 0 2px 6px rgba(0,0,0,0.04);
+  --shadow-lg: 0 10px 40px rgba(107,33,232,0.12), 0 4px 12px rgba(0,0,0,0.06);
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+  --bg: #0d0d1a;
+  --white: #1a1a2e;
+  --text-dark: #f0f0ff;
+  --text-mid: #c4c4e0;
+  --text-light: #9090b8;
+  --border: #2a2a45;
+  --card-bg: #1a1a2e;
+  --nav-bg: rgba(13,13,26,0.9);
+  --tag-bg: #1e1b4b;
+  --tag-text: #a5b4fc;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: var(--font-body); border: none; background: none; }
+img { max-width: 100%; display: block; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--purple-mid); border-radius: 3px; }
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+.fade-up   { animation: fadeUp  0.6s ease both; }
+.scale-in  { animation: scaleIn 0.5s ease both; }
+
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
