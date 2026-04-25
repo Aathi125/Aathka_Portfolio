@@ -20,7 +20,7 @@ export default function Home({ scrollTo }) {
           </div>
         </div>
 
-        <h1 className="home-name fade-up delay-1">Aathika </h1>
+        <h1 className="home-name fade-up delay-1">Aathika I</h1>
         <p className="home-title fade-up delay-2">Software Engineering Undergraduate</p>
         <p className="home-bio fade-up delay-3">
           Proficient in full-stack development and specializing in modern web technologies.
