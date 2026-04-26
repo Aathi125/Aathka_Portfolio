@@ -38,6 +38,14 @@ const education = [
     desc: 'Completed Advanced Levels with C in Biology, Physics, and Chemistry.',
     tags: [],
   },
+  {
+    type: 'edu',
+    role: 'O/L - 8A',
+    company: 'Puttalam Erukalam Piddy Maha Vidyalaya',
+    period: '2016 – 2018',
+    desc: 'Completed Ordinary Levels with 8 A & B.',
+    tags: [],
+  },
 ];
 
 export default function Experience() {
