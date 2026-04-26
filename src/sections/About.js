@@ -47,7 +47,7 @@ export default function About() {
           <div className="about-photo-wrap fade-up delay-2">
             <div className="about-photo-ring">
               <img
-                src="/profile.jpg"
+                src="/prfile.jpg"
                 alt="Aathika"
                 className="about-photo"
               />
