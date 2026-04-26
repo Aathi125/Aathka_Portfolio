@@ -15,7 +15,7 @@ export default function Home({ scrollTo }) {
           <div className="avatar-wrap">
             {/* Replace src with your own photo */}
             <div className="avatar-placeholder">
-              <img src="/profile.jpg" alt="Aathika" />
+              <img src="/prfile.jpg" alt="Aathika" />
             </div>
           </div>
         </div>
