@@ -17,7 +17,7 @@ export default function About() {
               (SLIIT), maintaining a strong academic record with a CGPA of 3.65/4.0. 
               I have been recognized for academic excellence by receiving the Dean's List Award three times. 
               Complementing this foundation, I have successfully contributed some industry-grade web projects, 
-              which has provided invaluable experience in translating theoretical knowledge into robust, 
+              which has provided invaluable experience in translating theoretical knowledge into 
               real-world applications.
             </p>
             <p>
