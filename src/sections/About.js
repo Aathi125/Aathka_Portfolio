@@ -16,7 +16,8 @@ export default function About() {
               Currently, I am a 3rd-year Undergraduate at the Sri Lanka Institute of Information Technology 
               (SLIIT), maintaining a strong academic record with a CGPA of 3.65/4.0. 
               I have been recognized for academic excellence by receiving the Dean's List Award three times. 
-              
+              </p>
+            <p>
               I am currently working as a Software Engineering Intern at Epic Lanka, 
               working on FinTech and banking applications using Angular and Spring Boot. 
               I have also contributed to industry-grade web projects, gaining valuable experience in applying theoretical knowledge to real-world applications.
