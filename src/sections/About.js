@@ -16,9 +16,10 @@ export default function About() {
               Currently, I am a 3rd-year Undergraduate at the Sri Lanka Institute of Information Technology 
               (SLIIT), maintaining a strong academic record with a CGPA of 3.65/4.0. 
               I have been recognized for academic excellence by receiving the Dean's List Award three times. 
-              Complementing this foundation, I have successfully contributed some industry-grade web projects, 
-              which has provided invaluable experience in translating theoretical knowledge into 
-              real-world applications.
+              
+              I am currently working as a Software Engineering Intern at Epic Lanka, 
+              working on FinTech and banking applications using Angular and Spring Boot. 
+              I have also contributed to industry-grade web projects, gaining valuable experience in applying theoretical knowledge to real-world applications.
             </p>
             <p>
               When I'm not coding, I'm exploring new technologies, contributing to open 
@@ -55,7 +56,7 @@ export default function About() {
             {/* Floating skill badges around the photo */}
             <span className="about-badge badge-1">React</span>
             <span className="about-badge badge-2">Spring Boot</span>
-            <span className="about-badge badge-3">Node.js</span>
+            <span className="about-badge badge-3">Angular</span>
             <span className="about-badge badge-4">Docker</span>
           </div>
         </div>
