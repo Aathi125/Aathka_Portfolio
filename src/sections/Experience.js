@@ -4,11 +4,11 @@ import './Experience.css';
 const experiences = [
   {
     type: 'work',
-    role: 'Software Engineer Intern',
-    company: 'Epic Lanka (Pvt) Ltd',
-    period: '2026 – Present',
-    desc: 'Working on developing and maintaining FinTech and banking applications using Angular and Spring Boot. Collaborating with cross-functional teams to deliver secure, scalable, and high-quality software solutions for the financial services domain.',
-    tags: ['Full Stack', 'Springboot', 'Angular', 'Github'],
+    role: 'No Information Available',
+    company: 'No Information Available',
+    period: 'No Information Available',
+    desc: 'No Informstion Available',
+    tags: ['skill', 'skill', 'skill', 'skill'],
   },
   {
     type: 'work',
