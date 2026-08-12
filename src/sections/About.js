@@ -18,8 +18,7 @@ export default function About() {
               I have been recognized for academic excellence by receiving the Dean's List Award three times. 
               </p>
             <p>
-              I am currently working as a Software Engineering Intern at Epic Lanka, 
-              working on FinTech and banking applications using Angular and Spring Boot. 
+              I have a strong foundation in software engineering principles, algorithms, and data structures,
               I have also contributed to industry-grade web projects, gaining valuable experience in applying theoretical knowledge to real-world applications.
             </p>
             <p>
